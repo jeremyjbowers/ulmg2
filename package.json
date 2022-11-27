@@ -1,0 +1,21 @@
+{
+    "name": "ulmg2",
+    "version": "2.0.0",
+    "description": "The ULMG is a strat-o-matic league for people.",
+    "main": "app.js",
+    "scripts": {
+        "migrate": "knex migrate:latest",
+        "start": "npm run migrate && node load_fixtures"
+    },
+    "engines": {
+        "node": ">=8.0.0"
+    },
+    "author": "Jeremy Bowers",
+    "license": "MIT",
+    "dependencies": {
+        "knex": "^2.3.0",
+        "objection": "^3.0.1",
+        "pg": "^8.8.0",
+        "sqlite3": "^5.1.2"
+    }
+}
