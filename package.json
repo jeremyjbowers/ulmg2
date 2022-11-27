@@ -1,6 +1,6 @@
 {
     "name": "ulmg2",
-    "version": "2.0.0",
+    "version": "0.0.1",
     "description": "The ULMG is a strat-o-matic league for people.",
     "main": "app.js",
     "scripts": {
